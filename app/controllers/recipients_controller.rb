@@ -1,4 +1,5 @@
 class RecipientsController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_recipient, only: [:show, :edit, :update, :destroy]
 
   # GET /recipients
@@ -25,6 +26,7 @@ class RecipientsController < ApplicationController
   # POST /recipients.json
   def create
     @recipient = Recipient.new(recipient_params)
+    @recipient.user = current_user
 
     respond_to do |format|
       if @recipient.save

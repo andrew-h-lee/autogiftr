@@ -1,4 +1,10 @@
-<h1>Listing gifts</h1>
+<h1>Choose Your Gifts</h1>
+
+<% if user_signed_in? %>
+  <% if current_user.has_role? :admin %>
+    <%= link_to 'New Gift', new_gift_path %>
+  <% end %>
+<% end %>
 
 <table>
   <thead>
@@ -19,7 +25,7 @@
         <td><%= gift.name %></td>
         <td><%= gift.description %></td>
         <td><%= gift.price %></td>
-        <td><%= gift.image %></td>
+        <td><%= image_tag gift.image %></td>
         <td><%= link_to 'Show', gift %></td>
         <td><%= link_to 'Edit', edit_gift_path(gift) %></td>
         <td><%= link_to 'Destroy', gift, method: :delete, data: { confirm: 'Are you sure?' } %></td>

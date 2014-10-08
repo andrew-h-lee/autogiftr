@@ -30,6 +30,9 @@ img {
   @extend .btn-primary;
   @extend .btn-lg;
   }
+.gift-image {
+    width: 150px;
+}
 // apply styles to HTML elements
 // to make views framework-neutral
 main {

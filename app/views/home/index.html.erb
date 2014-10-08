@@ -1,4 +1,24 @@
-<h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
+<h1>AutoGiftr</h1>
+
+<!-- this section shows a list of the current user's recipients if they have any. We use the 'current_user' method given to use by devise to refer to the user using the site. They must be signed in to be a current_user -->
+<% if user_signed_in? %>
+    <% if current_user.recipients.count > 0 %>
+        <p><b>You currently have <%= pluralize(current_user.recipients.count, 'recipient') %></b></p>
+			<table class="table">
+				<% current_user.recipients.each do |recipient| %>
+					<tr>
+						<td><%= recipient.name %></td>
+							<td><% if recipient.occasions.count > 0 %>
+							<ul><% recipient.occasions.each do |occasion| %>
+								<li><%= occasion.title %></li>
+								<% end %></ul>
+							<% end %></td>
+						<td><%= link_to "Add occasion", new_occasion_path, class: 'btn btn-success' %></td>
+					</tr>
+				<% end %>
+			</table>
+	<% end %>
 <% end %>
+
+<%= link_to "Add a recipient", new_recipient_path, class: 'btn btn-success' %>
+
