@@ -73,7 +73,7 @@ If you add functionality to this application, create an alternative implementati
 
 h2. Credits
 
-Please give Credit to "Pete Argent":https://github.com/pedrogrande of the "Coder Factory":https://thecoderfactory.com/ of creating this app.
+Please give Credit to "Pete Argent":https://github.com/pedrogrande of the "Coder Factory":https://thecoderfactory.com/ of creating this app Tutorial.
 
 
 
