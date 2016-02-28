@@ -1,16 +1,16 @@
-h1. Autogiftr
+# Autogiftr
 
 Welcome, this web app automatically schedules your Gifts for certain occasion & reminds the User of that occasion.
 
-This application was generated with the "rails_apps_composer":https://github.com/RailsApps/rails_apps_composer gem provided by the "RailsApps Project":http://railsapps.github.io/.
+This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
-h2. Diagnostics
+### Diagnostics
 
 This application was built with recipes that are known to work together.
 
 This application was built with preferences that are NOT known to work together.
 
-If the application doesn't work as expected, please "report an issue":https://github.com/RailsApps/rails_apps_composer/issues and include these diagnostics:
+If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues) and include these diagnostics:
 
 We'd also like to know if you've found combinations of recipes or preferences that do work together.
 
@@ -20,20 +20,15 @@ Recipes:
 Preferences:
 {:git=>true, :apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"sqlite", :templates=>"erb", :unit_test=>"test_unit", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap3", :email=>"sendgrid", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"admin_app", :rvmrc=>false, :quiet_assets=>true, :better_errors=>true, :ban_spiders=>true, :jsruntime=>true, :github=>true}
 
-h2. Ruby on Rails
-
-This application requires:
+## Prerequisites / Tools Used
 
 * Ruby version 2.0.0
 * Rails version 4.0.1
+* SQLite with ActiveRecord
 
-Learn more about "Installing Rails":http://railsapps.github.io/installing-rails.html.
+Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
-h2. Database
-
-This application uses SQLite with ActiveRecord.
-
-h2. Development
+### Development
 
 * Template Engine: ERB
 * Testing Framework: Test::Unit
@@ -42,25 +37,21 @@ h2. Development
 * Authentication: Devise
 * Authorization: CanCan
 
-h2. Email
+### Email
 
 The application is configured to send email using a SendGrid account.
 
-h2. Getting Started
+### Getting Started
 
-To get started, please read this "tutorial":https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-Giftify.md on how build this app step-by-step.
+To get started, please read this [tutorial](https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-Giftify.md) on how build this app step-by-step.
 
-h2. ==IMPORTANT NOTE==
+### IMPORTANT NOTE
 
-Install "rails_admin gem":https://github.com/sferik/rails_admin for this app.
+Install [rails_admin gem](https://github.com/sferik/rails_admin for this app).
 
 Click Link for further Instructions & configurations to your choosing.
 
-h2. Documentation and Support
-
-This is the only documentation.
-
-h2. Contributing
+### Contributing
 
 If you make improvements to this application, please share with others.
 
@@ -71,10 +62,6 @@ If you make improvements to this application, please share with others.
 
 If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
 
-h2. Credits
+### Credits
 
-Please give Credit to "Pete Argent":https://github.com/pedrogrande of the "Coder Factory":https://thecoderfactory.com/ of creating this app Tutorial.
-
-
-
-
+Please give Credit to [Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://thecoderfactory.com/) of creating this app Tutorial.
