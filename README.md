@@ -14,11 +14,7 @@ If the application doesn't work as expected, please [report an issue](https://gi
 
 We'd also like to know if you've found combinations of recipes or preferences that do work together.
 
-Recipes:
-["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
 
-Preferences:
-{:git=>true, :apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"sqlite", :templates=>"erb", :unit_test=>"test_unit", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap3", :email=>"sendgrid", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"admin_app", :rvmrc=>false, :quiet_assets=>true, :better_errors=>true, :ban_spiders=>true, :jsruntime=>true, :github=>true}
 
 ## Prerequisites / Tools Used
 
@@ -65,3 +61,10 @@ If you add functionality to this application, create an alternative implementati
 ### Credits
 
 Please give Credit to [Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://thecoderfactory.com/) of creating this app Tutorial.
+
+### Extra Notes
+Recipes:
+["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
+
+Preferences:
+{:git=>true, :apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"sqlite", :templates=>"erb", :unit_test=>"test_unit", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap3", :email=>"sendgrid", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"admin_app", :rvmrc=>false, :quiet_assets=>true, :better_errors=>true, :ban_spiders=>true, :jsruntime=>true, :github=>true}
