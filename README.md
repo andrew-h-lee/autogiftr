@@ -29,10 +29,6 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 * Authentication: Devise
 * Authorization: CanCan
 
-### Email
-
-The application is configured to send email using a SendGrid account.
-
 ### Getting Started
 
 To get started, please read this [tutorial](https://github.com/TheCoderFactory/webappcoder/blob/master/Tutorial-Giftify.md) on how build this app step-by-step.
