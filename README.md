@@ -20,6 +20,10 @@ If the application doesn't work as expected, please [report an issue](https://gi
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
 
+### Screenshots:
+  		  
+* [Behance Screenshots](http://)		 
+
 ### Development
 
 * Template Engine: ERB
