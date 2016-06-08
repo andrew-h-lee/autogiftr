@@ -4,25 +4,13 @@ Welcome, this web app automatically schedules your Gifts for certain occasion & 
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
-### Diagnostics
-
-This application was built with recipes that are known to work together.
-
-This application was built with preferences that are NOT known to work together.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues) and include these diagnostics
-
 ## Prerequisites / Tools Used
 
-* Ruby version 2.0.0
-* Rails version 4.0.1
-* SQLite with ActiveRecord
+* Ruby (v2.0.0)
+* Rails (v4.0.1)
+* DB: SQLite with ActiveRecord
 
 Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-### Screenshots:
-  		  
-* [Behance Screenshots](http://)		 
 
 ### Development
 
@@ -32,6 +20,10 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 * Form Builder: SimpleForm
 * Authentication: Devise
 * Authorization: CanCan
+
+### Screenshots:
+  		  
+* [Behance Screenshots](http://)	
 
 ### Getting Started
 
@@ -54,13 +46,8 @@ If you make improvements to this application, please share with others.
 
 If you add functionality to this application, create an alternative implementation, or build an application that is similar, please contact me and I'll add a note to the README so that others can find your work.
 
+If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues) and include these diagnostics
+
 ### Credits
 
 Please give Credit to [Pete Argent](https://github.com/pedrogrande) of the [Coder Factory](https://thecoderfactory.com/) of creating this app Tutorial.
-
-### Extra Notes
-Recipes:
-["apps4", "controllers", "core", "email", "extras", "frontend", "gems", "git", "init", "models", "prelaunch", "railsapps", "readme", "routes", "saas", "setup", "testing", "views"]
-
-Preferences:
-{:git=>true, :apps4=>"none", :dev_webserver=>"thin", :prod_webserver=>"thin", :database=>"sqlite", :templates=>"erb", :unit_test=>"test_unit", :integration=>"none", :continuous_testing=>"none", :fixtures=>"none", :frontend=>"bootstrap3", :email=>"sendgrid", :authentication=>"devise", :devise_modules=>"default", :authorization=>"cancan", :form_builder=>"simple_form", :starter_app=>"admin_app", :rvmrc=>false, :quiet_assets=>true, :better_errors=>true, :ban_spiders=>true, :jsruntime=>true, :github=>true}
