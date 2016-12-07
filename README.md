@@ -4,6 +4,9 @@ Welcome, this web app automatically schedules your Gifts for certain occasion & 
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
+## Screenshots
+[Behance Screenshots](https://www.behance.net/andrew-h-lee)
+
 ## Prerequisites / Tools Used
 
 * Ruby (v2.0.0)
@@ -20,10 +23,6 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 * Form Builder: SimpleForm
 * Authentication: Devise
 * Authorization: CanCan
-
-### Screenshots:
-  		  
-* [Behance Screenshots](http://)	
 
 ### Getting Started
 
