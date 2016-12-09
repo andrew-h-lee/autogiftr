@@ -5,7 +5,7 @@ Welcome, this web app automatically schedules your Gifts for certain occasion & 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem provided by the [RailsApps Project](http://railsapps.github.io/).
 
 ## Screenshots
-[Behance Screenshots](https://www.behance.net/andrew-h-lee)
+[Behance Screenshots](https://www.behance.net/gallery/35643503/Autogiftr)
 
 ## Prerequisites / Tools Used
 
