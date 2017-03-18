@@ -28,8 +28,6 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Install [rails_admin gem](https://github.com/sferik/rails_admin) for this app.
 
-Click Link for further Instructions & configurations to your choosing.
-
 ### Contributing
 
 If you make improvements to this application, please share with others.
